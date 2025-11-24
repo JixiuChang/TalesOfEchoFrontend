@@ -1,5 +1,7 @@
 {
   "home.html": "",
+  
+  "loginButtonText": "Login",
 
   "homeTab": "Home Page",
   
@@ -26,7 +28,6 @@
 
   "aboutTab": "About Us",
   "aboutIntroTab": "Abstract",
-  "aboutCreatorsTab": "T.E. Creators",
   "aboutArtistsTab": "T.E. Artists",
 
   "homeAboutTitleText": "A New-Generation Independent Music Label",

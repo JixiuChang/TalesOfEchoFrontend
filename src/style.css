@@ -975,7 +975,8 @@ footer {
 /* home highlight */
 
 .home-highlight {
-  background-image: url("assets/images/highlight-bg.jpg");
+  /* background-image: url("assets/images/highlight-bg.jpg"); */
+  background-color: #222;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
