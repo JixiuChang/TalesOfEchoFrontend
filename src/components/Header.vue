@@ -64,7 +64,6 @@
             <a href="#" class="nav-tab nav-tab-list">{{ $t('aboutTab') }}</a>
             <ul class="nav-dropdown">
               <li><RouterLink class="nav-tab" to="/about-intro">{{ $t('aboutIntroTab') }}</RouterLink></li>
-              <li><RouterLink class="nav-tab" to="/about-creators">{{ $t('aboutCreatorsTab') }}</RouterLink></li>
               <li><RouterLink class="nav-tab" to="/about-artists">{{ $t('aboutArtistsTab') }}</RouterLink></li>
             </ul>
           </li>
@@ -78,10 +77,10 @@
 import { useRouter } from 'vue-router';
 
 const router = useRouter();
+const emit = defineEmits(['open-login']);
 
 function onLoginClick() {
-  // 这里你可以触发登录弹窗或者跳转到登录页
-  console.log('Login button clicked');
+  emit('open-login');
 }
 
 function onLangChange(e: Event) {

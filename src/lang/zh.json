@@ -4,6 +4,8 @@
   "creatorsTitleText": "T.E. Creators 团队成员",
   "creatorsSubtitleText": "在Tales of Echo的团队中，我们见证着年轻一代00后的卓越成就。T.E. Creators这只团队汇聚了来自各个领域的年轻杰出人才。从音乐、美术、影视到商业和传媒领域。他们热情与上进心态塑造了这个集体的独特氛围，成为实现梦想的强大推动力。",
   
+  "loginButtonText": "登录",
+
   "home.html": "",
 
   "homeTab": "主页",
@@ -31,7 +33,6 @@
 
   "aboutTab": "关于我们",
   "aboutIntroTab": "简介",
-  "aboutCreatorsTab": "T.E. Creators 制作人",
   "aboutArtistsTab": "T.E. Artists 艺人",
 
   "homeAboutTitleText": "新生代独立音乐厂牌",

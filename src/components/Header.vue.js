@@ -1,8 +1,8 @@
 import { useRouter } from 'vue-router';
 const router = useRouter();
+const emit = defineEmits(['open-login']);
 function onLoginClick() {
-    // 这里你可以触发登录弹窗或者跳转到登录页
-    console.log('Login button clicked');
+    emit('open-login');
 }
 function onLangChange(e) {
     const target = e.target;
@@ -316,30 +316,15 @@ const __VLS_56 = {}.RouterLink;
 // @ts-ignore
 const __VLS_57 = __VLS_asFunctionalComponent(__VLS_56, new __VLS_56({
     ...{ class: "nav-tab" },
-    to: "/about-creators",
+    to: "/about-artists",
 }));
 const __VLS_58 = __VLS_57({
     ...{ class: "nav-tab" },
-    to: "/about-creators",
+    to: "/about-artists",
 }, ...__VLS_functionalComponentArgsRest(__VLS_57));
 __VLS_59.slots.default;
-(__VLS_ctx.$t('aboutCreatorsTab'));
-var __VLS_59;
-__VLS_asFunctionalElement(__VLS_intrinsicElements.li, __VLS_intrinsicElements.li)({});
-const __VLS_60 = {}.RouterLink;
-/** @type {[typeof __VLS_components.RouterLink, typeof __VLS_components.RouterLink, ]} */ ;
-// @ts-ignore
-const __VLS_61 = __VLS_asFunctionalComponent(__VLS_60, new __VLS_60({
-    ...{ class: "nav-tab" },
-    to: "/about-artists",
-}));
-const __VLS_62 = __VLS_61({
-    ...{ class: "nav-tab" },
-    to: "/about-artists",
-}, ...__VLS_functionalComponentArgsRest(__VLS_61));
-__VLS_63.slots.default;
 (__VLS_ctx.$t('aboutArtistsTab'));
-var __VLS_63;
+var __VLS_59;
 /** @type {__VLS_StyleScopedClasses['main-header']} */ ;
 /** @type {__VLS_StyleScopedClasses['top-bar']} */ ;
 /** @type {__VLS_StyleScopedClasses['float-btn']} */ ;
@@ -383,7 +368,6 @@ var __VLS_63;
 /** @type {__VLS_StyleScopedClasses['nav-dropdown']} */ ;
 /** @type {__VLS_StyleScopedClasses['nav-tab']} */ ;
 /** @type {__VLS_StyleScopedClasses['nav-tab']} */ ;
-/** @type {__VLS_StyleScopedClasses['nav-tab']} */ ;
 var __VLS_dollars;
 const __VLS_self = (await import('vue')).defineComponent({
     setup() {
@@ -392,10 +376,12 @@ const __VLS_self = (await import('vue')).defineComponent({
             onLangChange: onLangChange,
         };
     },
+    emits: {},
 });
 export default (await import('vue')).defineComponent({
     setup() {
         return {};
     },
+    emits: {},
 });
 ; /* PartiallyEnd: #4569/main.vue */
