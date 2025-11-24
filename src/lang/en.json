@@ -1,0 +1,75 @@
+{
+  "home.html": "",
+
+  "homeTab": "Home Page",
+  
+  "AiTab": "AI Music Creation Tool",
+  "AiMusicTab": "AI Music Creation",
+  "AiSeparateTab": "AI Vocal/Accompaniment Seperation",
+  "AiBreakdownTab": "AI Sound Tracks Analysis",
+
+  "releaseTab": "Release a single",
+
+  "productionTab": "Music/Audio Production",
+  "productionOriginalTab": "Original Production",
+  "productionEditingTab": "Post Production",
+  "productionSoundtrackTab": "Audio Processing",
+
+  "submissionTab": "Submission/Application for Entry",
+
+  "proposalTab": "Business Plan",
+  "proposalCopyrightTab": "Music Licensing",
+  "proposalFilmTab": "\"Audio Motion\" Project",
+  "proposalCooperationTab": "Trade Cooperations",
+
+  "merchandiseTab": "Store",
+
+  "aboutTab": "About Us",
+  "aboutIntroTab": "Abstract",
+  "aboutCreatorsTab": "T.E. Creators",
+  "aboutArtistsTab": "T.E. Artists",
+
+  "homeAboutTitleText": "A New-Generation Independent Music Label",
+  "homeAboutSubtitleText1": "The Music label under Believe Music Distribution, one of the world's largest music distribution companies",
+  "homeAboutSubtitleText2": "​The label carries out label construction around the three central concepts of \"building a musical social community\", \"discovering and cultivating new musicians\" and \"pursuing artistic emotional expression\"",
+
+  "homeAboutTitle1": "​Building a Musical Ecology",
+  "homeAboutContent1": "Through interaction on mainstream platforms, online and offline performances and exhibitions, creative sharing sessions and other forms, we provide a platform for musicians and art workers to learn and communicate. We not only sign contracts to release music, but also build a community around music and art to promote cooperation and inspiration within the community. By developing Tales of Echo's unique music video program and cooperating with visual and video artists, we extend music into the multimedia field, create a richer music experience, and build a social community that loves music.",
+  
+  "homeAboutTitle2": "Discover and Cultivate new Artists",
+  "homeAboutContent2": "At Tales of Echo, every musician is a unique shining star on our music stage. Not only are musicians welcome to take the initiative to choose Tales of Echo as a stage for their development, but we also encourage creators recognized by our team to join us. Even if the production skills have not yet reached the mature stage, Tales of Echo's jury and production team will provide personalized guidance and are committed to helping each musician realize their dreams. We believe that any creator with ideals and passion for music can gain valuable music production learning experience in our label.",
+  
+  "homeAboutTitle3": "Pursue Artistic Emotional Expression",
+  "homeAboutContent3": "In a commercial and quantity-oriented music environment, Tales of Echo pursues not only pure music production, but also the deep emotions behind each track. We see music as a medium of emotional expression, a language through which we communicate with the world. We strive to create music that touches the soul, so that every song conveys our deepest emotions. Here, art does not stop at the technical level, but also resonates with the soul again and again, and is an affectionate expression of the world. We pursue music and art that can touch people's hearts and leave a deep mark. We firmly believe that the true charm of music lies in its power to touch people's hearts.",
+  
+  "homeTop3Title": "TOP 3 singles",
+
+  "homeTop3ArtistName1": "衰棄.",
+  "homeTop3CoverTitle1": "Walking Alone in the Night",
+
+  "homeTop3ArtistName2": "Subverter",
+  "homeTop3CoverTitle2": "<em>Einzig</em>",
+
+  "homeTop3ArtistName3": "Rinocchio",
+  "homeTop3CoverTitle3": "满月 <em>(Late Night Tequila)</em>",
+
+  "homeHighlightTitle1": "​Music Production",
+  "homeHighlightContent1": "Whether you are in need of personalized music production or a creator eager to create your own music world, the Tales of Echo production team will provide you with a full range of customized services.In this project, we will gain a deep understanding of your musical vision and work with you to curate and hone a unique piece of music. While providing a full range of music production, Tales of Echo is also good at specific production services such as audio processing. We can provide you with a full range of customized solutions.",
+  "homeHighlightButton1": "Learn More",
+  
+  "homeHighlightTitle2": "\"Audio Motion\" Project",
+  "homeHighlightContent2": "Around the purpose of building a musical social community​, excavationThe infinite possibilities of music, Tales of Echo launches a new music video project! This project will present a perfect fusion of art, music and vision, bringing you an unprecedented audio-visual feast. We will invite our outstanding musicians to work with Tales of Echo's multimedia production team to outline fascinating music pictures through creative music videos. This is not only a visual expression of music, but also a presentation of the deep emotions of each song, bringing you a full-body musical journey.",
+  "homeHighlightButton2": "Learn More",
+  
+  "homeHighlightTitle3": "T.E. Artists Application for entry/submission",
+  "homeHighlightContent3": "To explore the charm of music, we welcome music creators from all over the world to join us! Provide a unique and rich music stage for you who dream of playing musical notes. Through our rigorous review and personalized cooperation, your music dreams will shine brightly here. We also encourage new producers with music dreams to join, let Tales of Echo be your guide on the music journey, and jointly write the future chapter of music. Whether you are a passionate newbie or an experienced producer, we are eagerly waiting for you to join us and create the miracle of music together.",
+  "homeHighlightButton3": "Submission Channel",
+
+  "heroTextContent1": "Created with attitude, performed with creativity, and painted with stories...",
+  "heroTextContent2": "Originated from the love for music and persistence in creation. This attitude is not only reflected in the music itself, but also serves as a bridge between Tales of Echo and its listeners. Write the story of music, build music resonance and emotional resonance with the audience, and make the music more meaningful and deep. In this music stage, we are not satisfied with the ordinary, but pursue excellence and challenge the constraints of tradition. Join us and let music no longer be a lonely melody, but the beauty of art we create together.",
+
+  "about-creators.html": "",
+
+  "creatorsTitleText": "T.E. Creators Team Members",
+  "creatorsSubtitleText": "In the Tales of Echo Worldwide team, we witness the outstanding achievements of the younger generation of the millennium. This team brings together outstanding professionals from various fields. Whether in the fields of music, art, media or business, their shared enthusiasm and progressive mentality have shaped the unique atmosphere of this collective and become a powerful driving force to realize their dreams."
+}

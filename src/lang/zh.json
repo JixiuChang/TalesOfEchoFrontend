@@ -1,0 +1,79 @@
+{  
+  "about-creators.html": "",
+
+  "creatorsTitleText": "T.E. Creators 团队成员",
+  "creatorsSubtitleText": "在Tales of Echo的团队中，我们见证着年轻一代00后的卓越成就。T.E. Creators这只团队汇聚了来自各个领域的年轻杰出人才。从音乐、美术、影视到商业和传媒领域。他们热情与上进心态塑造了这个集体的独特氛围，成为实现梦想的强大推动力。",
+  
+  "home.html": "",
+
+  "homeTab": "主页",
+  
+  "AiTab": "AI音乐创作工具",
+  "AiMusicTab": "AI音乐创作",
+  "AiSeparateTab": "AI人声/伴奏分离",
+  "AiBreakdownTab": "AI分轨拆解",
+
+  "releaseTab": "发行专辑",
+
+  "productionTab": "音乐/音频制作",
+  "productionOriginalTab": "原创制作",
+  "productionEditingTab": "后期制作",
+  "productionSoundtrackTab": "音频处理",
+
+  "submissionTab": "投稿/申请入驻",
+
+  "proposalTab": "商业方案",
+  "proposalCopyrightTab": "音乐授权",
+  "proposalFilmTab": "光影悦动计划",
+  "proposalCooperationTab": "行业合作",
+
+  "merchandiseTab": "商店",
+
+  "aboutTab": "关于我们",
+  "aboutIntroTab": "简介",
+  "aboutCreatorsTab": "T.E. Creators 制作人",
+  "aboutArtistsTab": "T.E. Artists 艺人",
+
+  "homeAboutTitleText": "新生代独立音乐厂牌",
+  "homeAboutSubtitleText1": "全球最大音乐发行公司之一——Believe Music Distribution旗下音乐厂牌",
+  "homeAboutSubtitleText2": "厂牌围绕 “构建音乐生态” “发现培养新势力音乐人” “追求艺术情感表达” 三大中心理念开展厂牌建设",
+
+  "homeAboutTitle1": "构建音乐生态",
+  "homeAboutContent1": "Tales of Echo致力于构建一个多维度的音乐生态系统，将音乐与各种创意形式、技术手段和文化元素进行融合，创造出一个全新的互动空间。我们强调音乐与其他领域的深度联动，通过跨界合作和创新思维打破传统界限。在这个生态系统中，音乐与视觉艺术、数字科技等多种元素相互交织。我们力求打造一个更加开放、包容和富有创造力的社区，让音乐的每一种可能性都得以展现，激发出更多形式的交流与合作。",
+  
+  "homeAboutTitle2": "发现培养新势力音乐人",
+  "homeAboutContent2": "在Tales of Echo，每一位音乐人都是我们音乐舞台上独一无二的闪耀之星。我们欢迎音乐人主动选择将Tales of Echo作为他们发展的舞台，也鼓励得到我们团队认可的创作者加入我们。Tales of Echo的评审和制作团队将提供个性化的指导，帮助每位音乐人实现梦想。我们相信，任何怀揣理想、对音乐充满热情的创作者，都能在我们的厂牌中获得宝贵的音乐制作学习经验。",
+  
+  "homeAboutTitle3": "追求艺术情感表达",
+  "homeAboutContent3": "在商业化和以量为主的音乐大环境下，Tales of Echo追求的不仅仅是单纯音乐制作，更是每一首曲目背后所蕴含的深沉情感。我们将音乐视为一种情感的表达媒介，是我们与世界沟通的语言。我们努力创造出音乐作品，来传递我们内心深处的情感。在这里，艺术并不停留在技术层面，更是一次次心灵的共振，是对这个世界的深情表白。我们深信，音乐真正的魅力在于它有着触动人心灵的力量。",
+  
+  "homeTop3Title": "TOP 3 单曲",
+
+  "homeTop3ArtistName1": "裔衍",
+  "homeTop3CoverTitle1": "夜中独步",
+
+  "homeTop3ArtistName2": "Subverter",
+  "homeTop3CoverTitle2": "<em>Einzig</em>",
+
+  "homeTop3ArtistName3": "Rinocchio",
+  "homeTop3CoverTitle3": "满月 <em>(Late Night Tequila)</em>",
+
+  "homeHighlightTitle1": "音乐/音频制作",
+  "homeHighlightContent1": "如果您是个性化音乐制作的需求者，我们将深入了解您的音乐愿景，与您共同策划并打磨出独一无二的音乐作品。在提供全套音乐制作的同时，Tales of Echo制作团队也擅长音频处理等特定制作服务，我们都能为您提供全方位的解决方案。",
+  "homeHighlightButton1": "了解更多",
+  
+  "homeHighlightTitle2": "光影悦动计划",
+  "homeHighlightContent2": "围绕构建音乐生态的宗旨​，发掘音乐的无限可能，Tales of Echo开展音乐影视计划（即光影跃动计划）。我们邀请旗下优秀音乐人，携手影视制作团队和剧组，来勾勒出令人心驰神往的影视作品。如果您是影视或者音乐视频爱好者，请点击下方按钮了解更多。",
+  "homeHighlightButton2": "了解更多",
+  
+  "homeHighlightTitle3": "T.E. Artists 申请入驻/投稿",
+  "homeHighlightContent3": "我们欢迎全球音乐创作者的加入！我们鼓励怀有音乐梦想的制作人的加入，让Tales of Echo成为您音乐旅程的引导者，共同书写音乐的未来篇章。无论您是满怀热情的新人，还是经验丰富的制作人，我们都热切期待您的加入，一同创造属于音乐的奇迹。",
+  "homeHighlightButton3": "投稿通道",
+
+  "heroTextContent1": "以态度铸就，以创意演绎，以故事绘制音乐画卷......",
+  "heroTextContent2": "源自对音乐的热爱、对创作的坚守。这种态度不仅体现在音乐本身，也是Tales of Echo与听众之间建立联系的桥梁。书写音乐的故事，构建音乐与听众共鸣和情感共振，使音乐更具有意义和深度。在这个音乐舞台上，我们不满足于平凡，而是追求卓越，挑战传统的束缚。加入我们，让音乐不再是孤独的旋律，而是我们共同创造的艺术之美。",
+
+  "release.html": "",
+
+  "releaseHeaderText": "​发行专辑"
+}
