@@ -245,14 +245,14 @@ const __VLS_40 = {}.RouterLink;
 // @ts-ignore
 const __VLS_41 = __VLS_asFunctionalComponent(__VLS_40, new __VLS_40({
     ...{ class: "nav-tab" },
-    to: "/proposal-film",
+    to: "/proposal-cooperation",
 }));
 const __VLS_42 = __VLS_41({
     ...{ class: "nav-tab" },
-    to: "/proposal-film",
+    to: "/proposal-cooperation",
 }, ...__VLS_functionalComponentArgsRest(__VLS_41));
 __VLS_43.slots.default;
-(__VLS_ctx.$t('proposalFilmTab'));
+(__VLS_ctx.$t('proposalCooperationTab'));
 var __VLS_43;
 __VLS_asFunctionalElement(__VLS_intrinsicElements.li, __VLS_intrinsicElements.li)({});
 const __VLS_44 = {}.RouterLink;
@@ -260,30 +260,15 @@ const __VLS_44 = {}.RouterLink;
 // @ts-ignore
 const __VLS_45 = __VLS_asFunctionalComponent(__VLS_44, new __VLS_44({
     ...{ class: "nav-tab" },
-    to: "/proposal-cooperation",
+    to: "/merchandise",
 }));
 const __VLS_46 = __VLS_45({
     ...{ class: "nav-tab" },
-    to: "/proposal-cooperation",
+    to: "/merchandise",
 }, ...__VLS_functionalComponentArgsRest(__VLS_45));
 __VLS_47.slots.default;
-(__VLS_ctx.$t('proposalCooperationTab'));
-var __VLS_47;
-__VLS_asFunctionalElement(__VLS_intrinsicElements.li, __VLS_intrinsicElements.li)({});
-const __VLS_48 = {}.RouterLink;
-/** @type {[typeof __VLS_components.RouterLink, typeof __VLS_components.RouterLink, ]} */ ;
-// @ts-ignore
-const __VLS_49 = __VLS_asFunctionalComponent(__VLS_48, new __VLS_48({
-    ...{ class: "nav-tab" },
-    to: "/merchandise",
-}));
-const __VLS_50 = __VLS_49({
-    ...{ class: "nav-tab" },
-    to: "/merchandise",
-}, ...__VLS_functionalComponentArgsRest(__VLS_49));
-__VLS_51.slots.default;
 (__VLS_ctx.$t('merchandiseTab'));
-var __VLS_51;
+var __VLS_47;
 __VLS_asFunctionalElement(__VLS_intrinsicElements.li, __VLS_intrinsicElements.li)({
     ...{ class: "nav-about-container" },
 });
@@ -296,50 +281,35 @@ __VLS_asFunctionalElement(__VLS_intrinsicElements.ul, __VLS_intrinsicElements.ul
     ...{ class: "nav-dropdown" },
 });
 __VLS_asFunctionalElement(__VLS_intrinsicElements.li, __VLS_intrinsicElements.li)({});
+const __VLS_48 = {}.RouterLink;
+/** @type {[typeof __VLS_components.RouterLink, typeof __VLS_components.RouterLink, ]} */ ;
+// @ts-ignore
+const __VLS_49 = __VLS_asFunctionalComponent(__VLS_48, new __VLS_48({
+    ...{ class: "nav-tab" },
+    to: "/about-intro",
+}));
+const __VLS_50 = __VLS_49({
+    ...{ class: "nav-tab" },
+    to: "/about-intro",
+}, ...__VLS_functionalComponentArgsRest(__VLS_49));
+__VLS_51.slots.default;
+(__VLS_ctx.$t('aboutIntroTab'));
+var __VLS_51;
+__VLS_asFunctionalElement(__VLS_intrinsicElements.li, __VLS_intrinsicElements.li)({});
 const __VLS_52 = {}.RouterLink;
 /** @type {[typeof __VLS_components.RouterLink, typeof __VLS_components.RouterLink, ]} */ ;
 // @ts-ignore
 const __VLS_53 = __VLS_asFunctionalComponent(__VLS_52, new __VLS_52({
     ...{ class: "nav-tab" },
-    to: "/about-intro",
+    to: "/about-artists",
 }));
 const __VLS_54 = __VLS_53({
     ...{ class: "nav-tab" },
-    to: "/about-intro",
+    to: "/about-artists",
 }, ...__VLS_functionalComponentArgsRest(__VLS_53));
 __VLS_55.slots.default;
-(__VLS_ctx.$t('aboutIntroTab'));
-var __VLS_55;
-__VLS_asFunctionalElement(__VLS_intrinsicElements.li, __VLS_intrinsicElements.li)({});
-const __VLS_56 = {}.RouterLink;
-/** @type {[typeof __VLS_components.RouterLink, typeof __VLS_components.RouterLink, ]} */ ;
-// @ts-ignore
-const __VLS_57 = __VLS_asFunctionalComponent(__VLS_56, new __VLS_56({
-    ...{ class: "nav-tab" },
-    to: "/about-creators",
-}));
-const __VLS_58 = __VLS_57({
-    ...{ class: "nav-tab" },
-    to: "/about-creators",
-}, ...__VLS_functionalComponentArgsRest(__VLS_57));
-__VLS_59.slots.default;
-(__VLS_ctx.$t('aboutCreatorsTab'));
-var __VLS_59;
-__VLS_asFunctionalElement(__VLS_intrinsicElements.li, __VLS_intrinsicElements.li)({});
-const __VLS_60 = {}.RouterLink;
-/** @type {[typeof __VLS_components.RouterLink, typeof __VLS_components.RouterLink, ]} */ ;
-// @ts-ignore
-const __VLS_61 = __VLS_asFunctionalComponent(__VLS_60, new __VLS_60({
-    ...{ class: "nav-tab" },
-    to: "/about-artists",
-}));
-const __VLS_62 = __VLS_61({
-    ...{ class: "nav-tab" },
-    to: "/about-artists",
-}, ...__VLS_functionalComponentArgsRest(__VLS_61));
-__VLS_63.slots.default;
 (__VLS_ctx.$t('aboutArtistsTab'));
-var __VLS_63;
+var __VLS_55;
 /** @type {__VLS_StyleScopedClasses['main-header']} */ ;
 /** @type {__VLS_StyleScopedClasses['top-bar']} */ ;
 /** @type {__VLS_StyleScopedClasses['float-btn']} */ ;
@@ -376,12 +346,10 @@ var __VLS_63;
 /** @type {__VLS_StyleScopedClasses['nav-tab']} */ ;
 /** @type {__VLS_StyleScopedClasses['nav-tab']} */ ;
 /** @type {__VLS_StyleScopedClasses['nav-tab']} */ ;
-/** @type {__VLS_StyleScopedClasses['nav-tab']} */ ;
 /** @type {__VLS_StyleScopedClasses['nav-about-container']} */ ;
 /** @type {__VLS_StyleScopedClasses['nav-tab']} */ ;
 /** @type {__VLS_StyleScopedClasses['nav-tab-list']} */ ;
 /** @type {__VLS_StyleScopedClasses['nav-dropdown']} */ ;
-/** @type {__VLS_StyleScopedClasses['nav-tab']} */ ;
 /** @type {__VLS_StyleScopedClasses['nav-tab']} */ ;
 /** @type {__VLS_StyleScopedClasses['nav-tab']} */ ;
 var __VLS_dollars;

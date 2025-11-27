@@ -53,7 +53,6 @@
             <a href="#" class="nav-tab nav-tab-list">{{ $t('proposalTab') }}</a>
             <ul class="nav-dropdown">
               <li><RouterLink class="nav-tab" to="/proposal-copyright">{{ $t('proposalCopyrightTab') }}</RouterLink></li>
-              <li><RouterLink class="nav-tab" to="/proposal-film">{{ $t('proposalFilmTab') }}</RouterLink></li>
               <li><RouterLink class="nav-tab" to="/proposal-cooperation">{{ $t('proposalCooperationTab') }}</RouterLink></li>
             </ul>
           </li>
@@ -64,7 +63,6 @@
             <a href="#" class="nav-tab nav-tab-list">{{ $t('aboutTab') }}</a>
             <ul class="nav-dropdown">
               <li><RouterLink class="nav-tab" to="/about-intro">{{ $t('aboutIntroTab') }}</RouterLink></li>
-              <li><RouterLink class="nav-tab" to="/about-creators">{{ $t('aboutCreatorsTab') }}</RouterLink></li>
               <li><RouterLink class="nav-tab" to="/about-artists">{{ $t('aboutArtistsTab') }}</RouterLink></li>
             </ul>
           </li>

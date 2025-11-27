@@ -1,4 +1,4 @@
-{  
+{
   "about-creators.html": "",
 
   "creatorsTitleText": "T.E. Creators 团队成员",
@@ -75,5 +75,53 @@
 
   "release.html": "",
 
-  "releaseHeaderText": "​发行专辑"
+  "releaseHeaderText": "​发行专辑",
+
+  "aboutIntroTitle": "关于 TALES OF ECHO WORLDWIDE",
+  "aboutIntroSubtitle1": "Tales of Echo Records, 又称Tales of Echo Worldwide, 是由5k·Demons和Subverter于2024年建立的音乐厂牌。",
+  "aboutIntroSubtitle2": "Tales of Echo致力于构建音乐生态，发展培养新势力音乐人，追求艺术情感表达。这是一个通过融合音乐、美术和视频媒体的艺术表达，创造的一个兼具深度和广度的创意领域。",
+  
+  "musicReleaseTitle": "音乐发行",
+  
+  "musicReleaseItemTitle1": "全球直连",
+  "musicReleaseItemContent1": "Tales of Echo Records与全球最大音乐发行公司之一Believe Distribution达成合作，为音乐人提供更专业的发行服务，直连全球200+音乐平台，覆盖230+个国家和地区。",
+  
+  "musicReleaseItemTitle2": "国际合作",
+  "musicReleaseItemContent2": "Tales of Echo与国内外平台保持紧密合作关系，可以为厂牌与艺人提供最优发行条件与最高服务质量。各类营销推广计划优先通道，为您带来更多曝光机会以及平台官方推荐。",
+  
+  "musicReleaseItemTitle3": "推广到位",
+  "musicReleaseItemContent3": "国内外知名传媒、美术院校学生与具有丰富公关经验的成员组成了Tales of Echo的强大宣发团队，我们的宣发包括但不限于封面制作，文案创作，音乐视频制作等线上线下传播。",
+  
+  "musicReleaseItemTitle4": "质量过硬",
+  "musicReleaseItemContent4": "Tales of Echo的审核团队成员包括来自国内外知名音乐院校学生，以及资深乐评人，我们从音乐艺术角度与制作角度对歌曲进行分析，确保所有投稿均可获得专业且全面的反馈。",
+  
+  "musicReleaseItemTitle5": "多元收录",
+  "musicReleaseItemContent5": "Tales of Echo关注并尊重不同音乐文化和创作风格，致力于推动音乐的多样性和创新。我们收录的音乐类型包括但不限于流行，摇滚，电子，说唱，纯音乐等主流风格以及实验、地下风格。",
+  
+  "musicReleaseItemTitle6": "完美生态",
+  "musicReleaseItemContent6": "在与全球最大发行公司之一Believe Distribution达成合作的同时，Tales of Echo已与多家演艺公司、传媒公司以及音乐演出场所合作，拥有完整且独立的音乐产业生态架构，包括音乐制作，音乐唱片，音乐经纪和音乐演出四大板块，为艺人提供专业多方面服务。",
+
+  "buySingle": "购买单曲",
+  "shareSingle": "分享单曲",
+  "getAlbum": "取得专辑",
+  "shareAlbum": "分享专辑",
+  "getTrack": "取得曲目",
+
+  "releaseEinzigTitle": "Einzig",
+  "releaseEinzigArtist": "Subverter / Einzig",
+  "releaseEinzigDesc": "来源于生活以及个人的感想，融合了电子以及电子核等元素。主歌色彩温暖塑造出朦胧的记忆碎片，两段副歌为不同风格，是对生活的宣泄也是对经历的回忆。",
+  "releaseEinzigDedication": "-For Duoduo.",
+
+  "releaseOurJourneyTitle": "Tales of Echo, Our Journey",
+  "releaseOurJourneyDesc1": "这是一次声音的回溯，一场情感的重逢。 Tales of Echo 的首张厂牌合辑《Our Journey》不仅仅是一张专辑，它承载了我们与音乐人好友们一路走来的点滴回忆与创作旅程。每一个音符，都见证了曾经的梦想与坚持，每一首歌，都记载了我们共同跨越的时光。",
+  "releaseOurJourneyDesc2": "这张专辑融合了与厂牌共同成长的音乐人们各自的灵感，他们是朋友亦是家人，更是我们在音乐道路上最重要的同行者。《Our Journey》不仅是对过去的回顾，更是对未来的展望。电子、流行、摇滚、实验音乐等多元素的融合碰撞交织出独属于我们的余音故事！",
+  "releaseOurJourneyIntroTitle": "Our Journey Intro",
+  "releaseOurJourneyArtist": "Subverter / 衰棄 / Our Journey",
+
+  "releaseLNTTitle": "Rinocchio, Late Night Tequila (满月)",
+  "releaseLNTDesc1": "共享满月之夜的蓝调时刻",
+  "releaseLNTDesc2": "我无数次幻想着在满月的夜晚与你成为今后彼此的依靠。 满月之夜一起享受微醺的浪漫惬意，只做今晚的片刻恋人。",
+  "releaseLNTDesc3": "Late Night Tequila历经了Rino一年时间的沉淀和打磨，终于完成了录音和编曲。人们常说爱在月光下完美，而rino将自己心中的爱全部寄托于满月的旋律和音符之中，正如歌词所表达的那样，满月之夜幸福就在我们的指尖。按下播放键，一起享受属于你们的蓝调时刻吧！",
+  "releaseLNTTrackTitle": "Late Night Tequila 满月",
+  "releaseLNTArtist": "Rinocchio / Late Night Tequila (满月)"
 }
