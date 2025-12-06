@@ -3,10 +3,14 @@
     <!-- Top bar. Lang left, Logo middle, Login right -->
     <div class="top-bar">
       <div class="float-btn lang-btn">
-        <select v-model="$i18n.locale" @change="onLangChange">
-          <option value="zh">简体中文</option>
-          <option value="en">English</option>
-        </select>
+        <div class="lang-selector-wrapper">
+          <select v-model="$i18n.locale" @change="onLangChange">
+            <option value="zh">简体中文</option>
+            <option value="en">English</option>
+          </select>
+          <span class="flag-icon" v-if="$i18n.locale === 'zh'">🇨🇳</span>
+          <span class="flag-icon" v-else>🇺🇸</span>
+        </div>
       </div>
 
       <div class="logo-center">
@@ -15,7 +19,8 @@
       </div>
 
       <div class="float-btn login-btn">
-        <button @click="onLoginClick">{{ $t('loginButtonText') }}</button>
+        <button v-if="!isLoggedIn" @click="openLogin">{{ $t('loginButtonText') }}</button>
+        <button v-else @click="logout" class="user-btn">{{ userType === 'guest' ? 'Guest' : 'User' }} (Logout)</button>
       </div>
     </div>
 
@@ -24,62 +29,39 @@
       <nav class="nav-tabs">
         <ul class="nav-list">
           <li>
-            <RouterLink class="nav-tab" to="/">{{ $t('homeTab') }}</RouterLink>
+            <RouterLink class="nav-tab" to="/" exact-active-class="active">{{ $t('homeTab') }}</RouterLink>
           </li>
 
-          <li class="nav-AI-container">
-            <a href="#" class="nav-tab nav-tab-list">{{ $t('AiTab') }}</a>
-            <ul class="nav-dropdown">
-              <li><RouterLink class="nav-tab" to="/AI-music">{{ $t('AiMusicTab') }}</RouterLink></li>
-              <li><RouterLink class="nav-tab" to="/AI-separate">{{ $t('AiSeparateTab') }}</RouterLink></li>
-              <li><RouterLink class="nav-tab" to="/AI-breakdown">{{ $t('AiBreakdownTab') }}</RouterLink></li>
-            </ul>
-          </li>
+          <li><RouterLink class="nav-tab" to="/release" active-class="active">{{ $t('releaseTab') }}</RouterLink></li>
 
-          <li><RouterLink class="nav-tab" to="/release">{{ $t('releaseTab') }}</RouterLink></li>
-
-          <li class="nav-production-container">
-            <a href="#" class="nav-tab nav-tab-list">{{ $t('productionTab') }}</a>
-            <ul class="nav-dropdown">
-              <li><RouterLink class="nav-tab" to="/production-original">{{ $t('productionOriginalTab') }}</RouterLink></li>
-              <li><RouterLink class="nav-tab" to="/production-editing">{{ $t('productionEditingTab') }}</RouterLink></li>
-              <li><RouterLink class="nav-tab" to="/production-soundtrack">{{ $t('productionSoundtrackTab') }}</RouterLink></li>
-            </ul>
-          </li>
-
-          <li><RouterLink class="nav-tab" to="/submission">{{ $t('submissionTab') }}</RouterLink></li>
-
-          <li class="nav-proposal-container">
-            <a href="#" class="nav-tab nav-tab-list">{{ $t('proposalTab') }}</a>
-            <ul class="nav-dropdown">
-              <li><RouterLink class="nav-tab" to="/proposal-copyright">{{ $t('proposalCopyrightTab') }}</RouterLink></li>
-              <li><RouterLink class="nav-tab" to="/proposal-cooperation">{{ $t('proposalCooperationTab') }}</RouterLink></li>
-            </ul>
-          </li>
-
-          <li><RouterLink class="nav-tab" to="/merchandise">{{ $t('merchandiseTab') }}</RouterLink></li>
+          <li><RouterLink class="nav-tab" to="/submission" active-class="active">{{ $t('submissionTab') }}</RouterLink></li>
 
           <li class="nav-about-container">
-            <a href="#" class="nav-tab nav-tab-list">{{ $t('aboutTab') }}</a>
+            <a href="#" class="nav-tab nav-tab-list" :class="{ active: isActive('/about') }">{{ $t('aboutTab') }}</a>
             <ul class="nav-dropdown">
-              <li><RouterLink class="nav-tab" to="/about-intro">{{ $t('aboutIntroTab') }}</RouterLink></li>
-              <li><RouterLink class="nav-tab" to="/about-artists">{{ $t('aboutArtistsTab') }}</RouterLink></li>
+              <li><RouterLink class="nav-tab" to="/about-intro" active-class="active">{{ $t('aboutIntroTab') }}</RouterLink></li>
+              <li><RouterLink class="nav-tab" to="/about-artists" active-class="active">{{ $t('aboutArtistsTab') }}</RouterLink></li>
             </ul>
           </li>
         </ul>
       </nav>
+
+      <a href="http://ai.talesofecho.net/" target="_blank" class="ai-btn">
+        {{ $t('AiTab') }}
+      </a>
     </div>
   </header>
 </template>
 
 <script setup lang="ts">
-import { useRouter } from 'vue-router';
+import { useRoute } from 'vue-router';
+import { useLogin } from '@/composables/useLogin';
 
-const router = useRouter();
+const route = useRoute();
+const { openLogin, isLoggedIn, userType, logout } = useLogin();
 
-function onLoginClick() {
-  // 这里你可以触发登录弹窗或者跳转到登录页
-  console.log('Login button clicked');
+function isActive(pathPrefix: string): boolean {
+  return route.path.startsWith(pathPrefix);
 }
 
 function onLangChange(e: Event) {
@@ -87,3 +69,53 @@ function onLangChange(e: Event) {
   localStorage.setItem('lang', target.value);
 }
 </script>
+
+<style scoped>
+/* Scoped styles merge with global styles, but we want to ensure specificity */
+.nav-tab.active {
+  color: white !important;
+  border-bottom: 2px solid white !important;
+  text-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+.user-btn {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.lang-selector-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.lang-selector-wrapper select {
+  padding-left: 30px; /* Make space for flag */
+}
+
+.flag-icon {
+  position: absolute;
+  left: 10px;
+  pointer-events: none; /* Let clicks pass through to select */
+  font-size: 1.2em;
+}
+
+.ai-btn {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s, background-color 0.2s;
+  margin-left: auto; /* Push to the right if flex container allows, or rely on flex-between */
+  white-space: nowrap;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.ai-btn:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+</style>

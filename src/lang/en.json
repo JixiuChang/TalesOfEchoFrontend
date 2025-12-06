@@ -32,7 +32,7 @@
   "homeAboutTitleText": "A New-Generation Independent Music Label",
   "homeAboutSubtitleText1": "The Music label under Believe Music Distribution, one of the world's largest music distribution companies",
   "homeAboutSubtitleText2": "​The label carries out label construction around the three central concepts of \"building a musical social community\", \"discovering and cultivating new musicians\" and \"pursuing artistic emotional expression\"",
-
+  
   "homeAboutTitle1": "​Building a Musical Ecology",
   "homeAboutContent1": "Through interaction on mainstream platforms, online and offline performances and exhibitions, creative sharing sessions and other forms, we provide a platform for musicians and art workers to learn and communicate. We not only sign contracts to release music, but also build a community around music and art to promote cooperation and inspiration within the community. By developing Tales of Echo's unique music video program and cooperating with visual and video artists, we extend music into the multimedia field, create a richer music experience, and build a social community that loves music.",
   
@@ -119,5 +119,64 @@
   "releaseLNTDesc2": "I have fantasized countless times about becoming each other's reliance in the future on a full moon night. Enjoy the romantic and comfortable tipsiness together on the full moon night, just be a momentary lover tonight.",
   "releaseLNTDesc3": "Late Night Tequila has gone through a year of precipitation and polishing by Rino, and finally completed the recording and arrangement. People often say that love is perfect under the moonlight, and Rino has entrusted all the love in his heart to the melody and notes of the full moon. Just as the lyrics express, happiness on the night of the full moon is at our fingertips. Press the play button and enjoy your blues moment together!",
   "releaseLNTTrackTitle": "Late Night Tequila Full Moon",
-  "releaseLNTArtist": "Rinocchio / Late Night Tequila (Full Moon)"
+  "releaseLNTArtist": "Rinocchio / Late Night Tequila (Full Moon)",
+
+  "submissionTitle": "T.E. Artists Application/Submission Channel",
+  "submissionIntro": "At Tales of Echo, we sincerely invite artists and bands full of attitude and passion to join our family. No matter which music style you are a producer of, we open our doors to welcome you. We know that the production level of newcomers varies, but if you have a sincere attitude and passion for music like us, we will be happy to help you. We are eager to witness and create refreshing music works together.",
+  "submissionJoinTitle": "Join Artists - T.E. Artists",
+  "submissionJoinSubtitle": "Artists who meet the conditions will be granted the following privileges",
+  "submissionFeature1": "Many exciting cooperation/commission projects",
+  "submissionFeature2": "75% high royalty share",
+  "submissionFeature3": "Join T.E. review and production team",
+  "submissionFeature4": "Join music library authorization",
+  "submissionFeature5": "More cooperation opportunities inside and outside the label",
+  "submissionFeature6": "Music production support",
+  "submissionTypesTitle": "Artist Types",
+  "submissionType1": "Singer",
+  "submissionType2": "Band",
+  "submissionType3": "Producer",
+  "submissionType3Desc": "(Lyrics, composition, arrangement, recording, mixing, mastering, etc.)",
+  "submissionType4": "Instrument performance (including DJ)",
+  "submissionFormTitle": "Artist Entry Application/Submission Channel",
+  "submissionFormSubtitle": "You can upload your demo submission by filling in the information below, or contact our label's official WeChat (talesofecho2024) or email (welcome@talesofecho.net), and provide MP3 format audio or recording and video files with a high degree of completion to demonstrate your personal music level, creative intent (briefly describe the creative idea of the work) and contact information. Our A&R will communicate with you about related matters as soon as possible.",
+  "submissionLabelArtistName": "Artist Name",
+  "submissionLabelEmail": "Email",
+  "submissionLabelWechat": "WeChat ID",
+  "submissionLabelIdea": "Creative Idea",
+  "submissionUploadText": "Upload supported file (Max 15MB)",
+  "submissionSendBtn": "Send",
+  "submissionFooterText": "Thank you for your support of Tales of Echo. The review results will be sent to your email or WeChat within 48 hours.",
+
+  "loginButtonText": "Login",
+  "loginTitle": "Login",
+  "loginSubtitle": "Select a login method",
+  "loginGoogle": "Sign in with Google",
+  "loginGuest": "Continue as Guest",
+  "loggingIn": "Logging in...",
+
+  "aboutArtistsTitle": "Signed Artists - T.E. Artists",
+  "aboutArtistsIntro": "Tales of Echo is honored to have an excellent and diverse team of artists who come from different countries, different age groups, have different production styles and understanding of music. Whether they are music majors who study music theory in depth, or amateurs who pursue their music dreams, they have contributed unique and precious talents and enthusiastic attitudes towards music art to the creation of Tales of Echo. This team that spans national borders, cultures, time and space makes Tales of Echo's music works full of layers and depth.",
+  "artistNameSubverter": "Subverter",
+  "artistRoleSubverter": "Composition, Arrangement",
+  "artistGenreSubverter": "Rock / Electronic",
+  "artistLinkSubverter": "Artist Page: <a href=\"https://music.163.com/#/artist?id=34235937\" target=\"_blank\">Subverter - Artist - Netease Cloud Music</a>",
+  
+  "artistNameDion": "Dion Chen",
+  "artistRoleDion": "Arrangement, Mixing, Mastering",
+  "artistGenreDion": "Electronic (Techno, EDM)",
+  "artistLinkDion": "Artist Page: <a href=\"https://music.163.com/#/artist?id=48642537\" target=\"_blank\">Dion Chen - Artist - Netease Cloud Music</a>",
+  
+  "artistNameRino": "Rinocchio",
+  "artistRoleRino": "Singer, Lyricist, Composer, Arranger",
+  "artistGenreRino": "Pop / Rap",
+  "artistLinkRino": "Artist Page: <a href=\"https://music.163.com/#/artist?id=34500861\" target=\"_blank\">Rinocchio - Artist - Netease Cloud Music</a>",
+  
+  "artistNameLiu": "Liu Jiahan",
+  "artistRoleLiu": "Singer, Lyricist",
+  "artistGenreLiu": "Pop / Mandarin",
+  
+  "artistName5k": "5k·Demons",
+  "artistRole5k": "Composition, Arrangement",
+  "artistGenre5k": "Pop / Electronic / Rock / Symphony",
+  "artistLink5k": "Artist Page: <a href=\"https://music.163.com/#/artist?id=36696116\" target=\"_blank\">5k·Demons - Artist - Netease Cloud Music</a>"
 }
