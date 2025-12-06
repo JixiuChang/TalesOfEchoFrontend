@@ -523,6 +523,7 @@ function playAudio(trackName: string) {
   font-size: 2rem;
   margin-bottom: 20px;
   font-weight: normal;
+  max-width: 400px;
 }
 
 .release-right p {
